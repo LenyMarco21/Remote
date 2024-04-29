@@ -122,6 +122,10 @@ void HAL_ADC_MspDeInit(ADC_HandleTypeDef* adcHandle)
 }
 
 /* USER CODE BEGIN 1 */
+
+/**
+ * 	Wrapper permettant de sampler la valeur d'un channel ADC
+ */
 uint32_t ADC1_GetSample(uint32_t channel)
 {
 	HAL_ADC_Stop(&hadc1);

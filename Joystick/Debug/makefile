@@ -34,34 +34,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := Joystick
+BUILD_ARTIFACT_NAME := Remote
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-Joystick.elf \
+Remote.elf \
 
 MAP_FILES += \
-Joystick.map \
+Remote.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-Joystick.list \
+Remote.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: Joystick.elf secondary-outputs
+main-build: Remote.elf secondary-outputs
 
 # Tool invocations
-Joystick.elf Joystick.map: $(OBJS) $(USER_OBJS) C:\Users\Leny\OneDrive\Documents\C\STM32\Joystick\STM32F103RBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Joystick.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\Leny\OneDrive\Documents\C\STM32\Joystick\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Joystick.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Remote.elf Remote.map: $(OBJS) $(USER_OBJS) C:\Users\l.marcolini\ESEO\Electronique\ Numerique\Remote\Joystick\STM32F103RBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Remote.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\l.marcolini\ESEO\Electronique Numerique\Remote\Joystick\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Remote.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -70,14 +70,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-Joystick.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "Joystick.list"
+Remote.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "Remote.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) Joystick.elf Joystick.list Joystick.map default.size.stdout
+	-$(RM) Remote.elf Remote.list Remote.map default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)

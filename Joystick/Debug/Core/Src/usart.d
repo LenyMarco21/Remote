@@ -20,12 +20,14 @@ Core/Src/usart.o: ../Core/Src/usart.c ../Core/Inc/usart.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_crc.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
- ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
+ ../Core/Inc/crc.h
 ../Core/Inc/usart.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
@@ -49,9 +51,11 @@ Core/Src/usart.o: ../Core/Src/usart.c ../Core/Inc/usart.h \
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_crc.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:
+../Core/Inc/crc.h:

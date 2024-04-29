@@ -36,6 +36,8 @@ extern ADC_HandleTypeDef hadc1;
 
 /* USER CODE BEGIN Private defines */
 
+#define ADC_RESOLUTION_BITS		12
+
 /* USER CODE END Private defines */
 
 void MX_ADC1_Init(void);

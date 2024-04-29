@@ -42,7 +42,7 @@ void MX_CRC_Init(void);
 
 /* USER CODE BEGIN Prototypes */
 
-uint32_t CRC_calculate(uint8_t* buff, uint32_t len);
+extern uint32_t CRC_calculate(uint8_t* buff, uint32_t len);
 
 /* USER CODE END Prototypes */
 

@@ -111,8 +111,8 @@ void HAL_UART_MspDeInit(UART_HandleTypeDef* uartHandle)
 
 /* USER CODE BEGIN 1 */
 
-void UART_SendXY(uint16_t x, uint16_t y){
-
+void UART_SendXY(uint16_t x, uint16_t y)
+{
 	uint8_t buffer[5] = {0};
 
 	// Stocke les valeurs X et Y sous 5 bits
@@ -120,7 +120,7 @@ void UART_SendXY(uint16_t x, uint16_t y){
 	buffer[1] = (y >> 7) & 0x1F;
 
 	// Calcule le CRC16
-	uint16_t crc_code = CRC_Calculate(buffer, 2);
+	uint16_t crc_code = CRC_calculate(buffer, 2);
 
 	// Stcoke le code CRC dans le buffer
 	buffer[2] = crc_code & 0xFF;
