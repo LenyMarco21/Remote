@@ -1,0 +1,2 @@
+../appli/Joystick/joystick_axis.c:33:31:JOYSTICK_axis_check_config	5
+../appli/Joystick/joystick_axis.c:60:24:JOYSTICK_AXIS_get_value	5

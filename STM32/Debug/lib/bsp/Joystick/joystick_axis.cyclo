@@ -1,0 +1,2 @@
+../lib/bsp/Joystick/joystick_axis.c:28:31:JOYSTICK_axis_check_config	5
+../lib/bsp/Joystick/joystick_axis.c:55:24:JOYSTICK_AXIS_get_value	5

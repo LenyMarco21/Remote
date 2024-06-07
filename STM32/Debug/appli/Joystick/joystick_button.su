@@ -1,0 +1,2 @@
+../appli/Joystick/joystick_button.c:27:30:JOYSTICK_BTN_check_config	16	static
+../appli/Joystick/joystick_button.c:50:23:JOYSTICK_BTN_get_value	32	static

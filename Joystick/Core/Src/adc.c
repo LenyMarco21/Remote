@@ -124,7 +124,7 @@ void HAL_ADC_MspDeInit(ADC_HandleTypeDef* adcHandle)
 /* USER CODE BEGIN 1 */
 
 /**
- * 	Wrapper permettant de sampler la valeur d'un channel ADC
+ * 	Fonction permettant de sampler la valeur d'un channel ADC
  */
 uint32_t ADC1_GetSample(uint32_t channel)
 {
@@ -134,7 +134,7 @@ uint32_t ADC1_GetSample(uint32_t channel)
 
 	sConfig.Channel = channel;
 	sConfig.Rank = ADC_REGULAR_RANK_1;
-	sConfig.SamplingTime = ADC_SAMPLETIME_1CYCLE_5;
+	sConfig.SamplingTime = ADC_SAMPLETIME_55CYCLES_5;
 
 	if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
 	{

@@ -111,6 +111,8 @@ void HAL_UART_MspDeInit(UART_HandleTypeDef* uartHandle)
 
 /* USER CODE BEGIN 1 */
 
+void UART_SendData()
+
 void UART_SendXY(uint16_t x, uint16_t y)
 {
 	uint8_t buffer[5] = {0};

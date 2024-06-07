@@ -106,6 +106,33 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 ./Core/Src/adc.o
  .text.HAL_ADC_MspDeInit
                 0x0000000000000000       0x3c ./Core/Src/adc.o
+ .group         0x0000000000000000        0xc ./Core/Src/controller.o
+ .group         0x0000000000000000        0xc ./Core/Src/controller.o
+ .group         0x0000000000000000        0xc ./Core/Src/controller.o
+ .group         0x0000000000000000        0xc ./Core/Src/controller.o
+ .group         0x0000000000000000        0xc ./Core/Src/controller.o
+ .group         0x0000000000000000        0xc ./Core/Src/controller.o
+ .group         0x0000000000000000        0xc ./Core/Src/controller.o
+ .text          0x0000000000000000        0x0 ./Core/Src/controller.o
+ .data          0x0000000000000000        0x0 ./Core/Src/controller.o
+ .bss           0x0000000000000000        0x0 ./Core/Src/controller.o
+ .debug_info    0x0000000000000000       0x69 ./Core/Src/controller.o
+ .debug_abbrev  0x0000000000000000       0x28 ./Core/Src/controller.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./Core/Src/controller.o
+ .debug_macro   0x0000000000000000       0x77 ./Core/Src/controller.o
+ .debug_macro   0x0000000000000000      0xa9c ./Core/Src/controller.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/controller.o
+ .debug_macro   0x0000000000000000       0x8e ./Core/Src/controller.o
+ .debug_macro   0x0000000000000000       0x51 ./Core/Src/controller.o
+ .debug_macro   0x0000000000000000      0x103 ./Core/Src/controller.o
+ .debug_macro   0x0000000000000000       0x6a ./Core/Src/controller.o
+ .debug_macro   0x0000000000000000      0x1df ./Core/Src/controller.o
+ .debug_line    0x0000000000000000      0x42f ./Core/Src/controller.o
+ .debug_str     0x0000000000000000     0x3cd0 ./Core/Src/controller.o
+ .comment       0x0000000000000000       0x44 ./Core/Src/controller.o
+ .ARM.attributes
+                0x0000000000000000       0x2d ./Core/Src/controller.o
  .group         0x0000000000000000        0xc ./Core/Src/crc.o
  .group         0x0000000000000000        0xc ./Core/Src/crc.o
  .group         0x0000000000000000        0xc ./Core/Src/crc.o
@@ -274,104 +301,104 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x28e ./Core/Src/gpio.o
  .debug_macro   0x0000000000000000       0x83 ./Core/Src/gpio.o
  .debug_macro   0x0000000000000000       0x5e ./Core/Src/gpio.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .group         0x0000000000000000        0xc ./Core/Src/joystick.o
- .text          0x0000000000000000        0x0 ./Core/Src/joystick.o
- .data          0x0000000000000000        0x0 ./Core/Src/joystick.o
- .bss           0x0000000000000000        0x0 ./Core/Src/joystick.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .group         0x0000000000000000        0xc ./Core/Src/joystick_axis.o
+ .text          0x0000000000000000        0x0 ./Core/Src/joystick_axis.o
+ .data          0x0000000000000000        0x0 ./Core/Src/joystick_axis.o
+ .bss           0x0000000000000000        0x0 ./Core/Src/joystick_axis.o
  .text.JOYSTICK_GetAxisValue
-                0x0000000000000000       0xa8 ./Core/Src/joystick.o
- .debug_info    0x0000000000000000      0x1ee ./Core/Src/joystick.o
- .debug_abbrev  0x0000000000000000       0xe4 ./Core/Src/joystick.o
+                0x0000000000000000       0xd6 ./Core/Src/joystick_axis.o
+ .debug_info    0x0000000000000000      0x246 ./Core/Src/joystick_axis.o
+ .debug_abbrev  0x0000000000000000       0xe4 ./Core/Src/joystick_axis.o
  .debug_aranges
-                0x0000000000000000       0x20 ./Core/Src/joystick.o
+                0x0000000000000000       0x20 ./Core/Src/joystick_axis.o
  .debug_rnglists
-                0x0000000000000000       0x14 ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000      0x1ee ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000      0xa9c ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000      0x227 ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000       0x2e ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000       0x22 ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000       0x22 ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000       0x8e ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000       0x51 ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000      0x103 ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000       0x6a ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000      0x1df ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000       0x1c ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000       0x22 ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000       0xbd ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000      0xd23 ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000     0xe09e ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000       0x6d ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000     0x348d ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000      0x174 ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000       0x5c ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000      0x5bc ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000      0x289 ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000      0x1cb ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000      0x114 ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000      0x1b2 ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000       0x27 ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000      0x136 ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000      0x1bc ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000       0x34 ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000       0x3c ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000       0x57 ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000      0x46a ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000      0x1b5 ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000       0x22 ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000       0x87 ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000      0x240 ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000      0x140 ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000      0x8ed ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000      0x28e ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000       0x83 ./Core/Src/joystick.o
- .debug_macro   0x0000000000000000       0x5e ./Core/Src/joystick.o
- .debug_line    0x0000000000000000      0x7b7 ./Core/Src/joystick.o
- .debug_str     0x0000000000000000    0x883d4 ./Core/Src/joystick.o
- .comment       0x0000000000000000       0x44 ./Core/Src/joystick.o
- .debug_frame   0x0000000000000000       0x34 ./Core/Src/joystick.o
+                0x0000000000000000       0x14 ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000      0x1ea ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000      0xa9c ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000       0x8e ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000       0x51 ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000      0x103 ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000       0x6a ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000      0x1df ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000      0x227 ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000       0xbd ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000      0xd23 ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000     0xe09e ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000       0x6d ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000     0x348d ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000       0x5c ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000      0x5bc ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000      0x289 ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000      0x1cb ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000      0x114 ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000      0x1b2 ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000       0x27 ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000      0x136 ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000      0x1bc ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000       0x3c ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000       0x57 ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000      0x46a ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000      0x1b5 ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000       0x87 ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000      0x240 ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000      0x140 ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000      0x8ed ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000      0x28e ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000       0x83 ./Core/Src/joystick_axis.o
+ .debug_macro   0x0000000000000000       0x5e ./Core/Src/joystick_axis.o
+ .debug_line    0x0000000000000000      0x7e1 ./Core/Src/joystick_axis.o
+ .debug_str     0x0000000000000000    0x884af ./Core/Src/joystick_axis.o
+ .comment       0x0000000000000000       0x44 ./Core/Src/joystick_axis.o
+ .debug_frame   0x0000000000000000       0x34 ./Core/Src/joystick_axis.o
  .ARM.attributes
-                0x0000000000000000       0x2d ./Core/Src/joystick.o
+                0x0000000000000000       0x2d ./Core/Src/joystick_axis.o
  .group         0x0000000000000000        0xc ./Core/Src/main.o
  .group         0x0000000000000000        0xc ./Core/Src/main.o
  .group         0x0000000000000000        0xc ./Core/Src/main.o
@@ -3497,9 +3524,10 @@ LOAD C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
 LOAD C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
 LOAD C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
 LOAD ./Core/Src/adc.o
+LOAD ./Core/Src/controller.o
 LOAD ./Core/Src/crc.o
 LOAD ./Core/Src/gpio.o
-LOAD ./Core/Src/joystick.o
+LOAD ./Core/Src/joystick_axis.o
 LOAD ./Core/Src/main.o
 LOAD ./Core/Src/stm32f1xx_hal_msp.o
 LOAD ./Core/Src/stm32f1xx_it.o
